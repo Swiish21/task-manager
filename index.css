@@ -1,6 +1,6 @@
 :root{
-    --primary-color : #01a2a8;
-    --primary-dark : #AB1449;
+    --primary-color : #001d7c;
+    --primary-dark : #ff0040;
     --gray : #aaaaaa;
     --border : rgb(207, 207, 207);
 }
@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    background-color: #01a2a8;
+    background-color: var(--primary-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -76,7 +76,7 @@ a {
     position: fixed;
     width: 100%;
     top: 5.5rem;
-    background-color: #01a2a8;
+    background-color: var(--primary-color);
 }
 
 .nav__link a {
